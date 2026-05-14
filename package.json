@@ -1,30 +1,11 @@
 {
-  "name": "saidtr",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "node backend/src/server.js"
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.3.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/giovanafelisbino2/SAIDTR.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/giovanafelisbino2/SAIDTR/issues"
-  },
-  "homepage": "https://github.com/giovanafelisbino2/SAIDTR#readme",
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "exceljs": "^4.4.0",
-    "express": "^5.2.1",
-    "multer": "^2.1.1",
-    "nodemailer": "^8.0.7"
+    "bootstrap-icons": "^1.13.1"
   }
 }
